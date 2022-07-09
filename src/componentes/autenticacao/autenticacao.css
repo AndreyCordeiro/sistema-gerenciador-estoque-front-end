@@ -1,0 +1,49 @@
+.main {
+    border-radius: 20px;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 10%);
+    padding: 1rem;
+    color: #363636;
+    width: 450px;
+    margin: 3rem auto 0;
+    background-color: #FFFFFF;
+}
+
+.label-entrar {
+    padding: 1em;
+    text-align: center;
+}
+
+.label-email,
+.label-senha {
+    padding: 1.2em;
+    margin-bottom: 0px;
+}
+
+input {
+    font-size: 15px;
+    width: 390px;
+    margin-left: 1rem;
+    padding: 12px;
+    border-radius: 0.9em;
+}
+
+.botao-fazer-login {
+    padding: 12px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: #167BFF;
+    border-radius: 0.9em;
+    padding: 0.8em 1.2em 0.8em 1em;
+    transition: all ease-in-out 0.2s;
+    font-size: 15px;
+    width: 420px;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #0071e2;
+}
