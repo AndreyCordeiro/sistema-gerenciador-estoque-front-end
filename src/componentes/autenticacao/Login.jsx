@@ -8,25 +8,27 @@ export class Login extends React.Component {
 
     render() {
         return (
-            <div className="main">
-                <h1 className="label-entrar">Sistema Gerenciador de Estoque</h1>
-                <div className="row">
-                    <h4 className="label-email">Email</h4>
-                    <input type="email" required placeholder="Informe seu Email"/>
-                </div>
-                <div className="row">
-                    <h4 className="label-senha">Senha</h4>
-                    <input type="password" required placeholder="Informe sua Senha"/>
-                </div>
-                <div className="row">
-                    <div className="botao-fazer-login">
-                        <button type="submit">
-                            <span className="material-symbols-outlined"/>
-                            Entrar
-                        </button>
+            <form>
+                <div className="main">
+                    <h1 className="label-sistema">Sistema Gerenciador de Estoque</h1>
+                    <div className="input-field">
+                        <input type="text" id="email" required/>
+                        <label htmlFor="email">Email</label>
+                    </div>
+                    <div className="input-field">
+                        <input type="password" id="senha" required/>
+                        <label htmlFor="senha">Senha</label>
+                    </div>
+                    <div className="row">
+                        <div className="botao-fazer-login">
+                            <button type="submit">
+                                <span className="material-symbols-outlined"/>
+                                Entrar
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </form>
         );
     }
 }
